@@ -1,5 +1,6 @@
 import './category-item.styles.scss';
 
+
 function CategoryItem({ category }) {
 
     const {imageUrl, title} = category;
@@ -13,8 +14,10 @@ function CategoryItem({ category }) {
       <h2>{title}</h2>
       <p>Shop Now</p>
     </div>
+   
   </div>
-    )
+  
+  )
 }
 
 export default CategoryItem;

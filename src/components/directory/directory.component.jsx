@@ -1,3 +1,4 @@
+
 import CategoryItem from '../category/category-item.component';
 import './directory.styles.scss';
 
@@ -9,6 +10,7 @@ function Directory({categories}) {
                 <CategoryItem key={category.id} category ={category} />
            
          ) )}
+         
         </div>        
     )
 }
